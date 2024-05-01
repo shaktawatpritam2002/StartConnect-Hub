@@ -3,6 +3,7 @@ import { Form, Button } from "react-bootstrap";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Imageupload from "./Imageupload";
+import './userRegistration.css'
 
 function UserRegistration() {
   const [userDetails, setUserDetails] = useState({
