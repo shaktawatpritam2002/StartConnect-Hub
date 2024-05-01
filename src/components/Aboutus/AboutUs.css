@@ -1,0 +1,18 @@
+.about-us-wrapper {
+    padding: 20px;
+  }
+  
+  .about-us-content {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,18 @@
+.objectives-wrapper {
+    padding: 20px;
+  }
+  
+  .objective-item {
+    margin-bottom: 20px;
+  }
+  
+  .objective-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .objective-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
