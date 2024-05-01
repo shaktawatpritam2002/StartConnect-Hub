@@ -61,7 +61,7 @@ const Homepage = () => {
               Companies directly invest in the startup of their choice.
             </p>
             <p>
-              We at Shark Up aim to provide a platform to startups to raise
+              We at StartConnect Hub aim to provide a platform to startups to raise
               external funding or capital in order to expand their businesses
               into new markets or locations. It also allows them to invest in
               research & development (R&D) or to fend off the competition. This
