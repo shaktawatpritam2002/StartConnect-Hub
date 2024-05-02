@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./footer.module.css";
 import sharkUpLogo from "../../data/LogoName.png";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,12 +30,19 @@ const Footer = () => {
           </div>
         </div>
         <div className={`${styles.footerWrapperTwo}`}>
+          {/* <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#investors">Investors</a></li>
+            <li><a href="#startups">Start Ups</a></li>
+          </ul> */}
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Objective</li>
-            <li>Investors</li>
-            <li>Start Ups</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/aboutus">About us</Link></li>
+            <li><Link to="/objectives">Objective</Link></li>
+            <li><Link to="/investors">Investors</Link></li>
+            <li><Link to="/startup">Start Ups</Link></li>
           </ul>
         </div>
         <div className={`${styles.footerWrapperThree}`}>

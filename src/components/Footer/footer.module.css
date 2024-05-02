@@ -124,3 +124,9 @@ button{
     padding-left: 5px;
     padding-right: 5px;
 }
+
+ul li a {
+    color: white;
+    text-decoration: none; /* Optional: Removes underline */
+  }
+  
