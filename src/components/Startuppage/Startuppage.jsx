@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-//import './InvestorProfiles.css'; // Import your CSS file
+import './startupPage.css';
 
 const InvestorProfiles = () => {
   const [investors, setInvestors] = useState([]);
@@ -66,7 +66,13 @@ const InvestorProfiles = () => {
             <p><strong>Investor Type:</strong> {investor.investorType}</p>
             <p><strong>Preferred Stage:</strong> {investor.preferredStage}</p>
             <p><strong>Email:</strong> {investor.email}</p>
-            <p><strong>Social Media Links:</strong> {investor.socialMediaLinks.join(', ')}</p>
+            <p><strong>Social Media Links:</strong> 
+              <ul className="social-media-links">
+                {investor.socialMediaLinks.map((link, index) => (
+                  <li key={index}><a href={link} target="_blank" rel="noopener noreferrer">{link}</a></li>
+                ))}
+              </ul>
+            </p>
             <p><strong>Experience:</strong> {investor.experience}</p>
             <p><strong>Risk Appetite:</strong> {investor.riskAppetite}</p>
             <p><strong>Funding Criteria:</strong> {investor.fundingCriteria}</p>
@@ -79,6 +85,7 @@ const InvestorProfiles = () => {
           </li>
         ))}
       </ul>
+
     </div>
   );
 };

@@ -46,7 +46,7 @@ const Homepage = () => {
               <img
                 className={`${styles.cover}`}
                 src={sharkUpLogo}
-                alt="sharkUp Logo"
+                alt="StartConnectHub Logo"
               />
             </div>
           </div>
